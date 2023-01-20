@@ -34,13 +34,5 @@ data = cursor.fetchall()
 table = tbl.tabulate(data, headers = ['Field', 'Type', 'Null', 'Key', 'Default', 'Extra'])
 print(table)
 
-
-choice = input("\n\nDo you want to add accounts? (y/n):")
-
-while choice == 'y':
-    add_account()
-    choice = input("Do you want to add more accounts? (y/n):")
-    
-
-input("\n\nPress Enter to exit.")
 connector.close()
+input(“Press Enter to exit.”)

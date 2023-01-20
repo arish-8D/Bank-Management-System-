@@ -37,7 +37,7 @@ try:
     print(table)
 
 except Exception:
-    print("\nThe database and table already exist.")
+    print("\nThe database (Bank_Management) and table (bank_details) already exist.")
     
 finally:
     input("\nPress Enter to exit.")

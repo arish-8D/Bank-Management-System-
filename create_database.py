@@ -40,4 +40,5 @@ except Exception:
     print("\nThe database (Bank_Management) and table (bank_details) already exist.")
     
 finally:
+    connector.close()
     input("\nPress Enter to exit.")
